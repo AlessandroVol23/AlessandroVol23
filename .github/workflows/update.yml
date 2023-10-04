@@ -1,0 +1,24 @@
+name: Update Latest Blog Posts
+
+on:
+  workflow_dispatch:
+  # for trigger via webhooks
+  repository_dispatch:
+    types: [trigger]
+
+jobs:
+  update-posts:
+    runs-on: ubuntu-latest
+    name: Update Posts
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Update Posts
+        uses: JannikWempe/github-latest-hashnode-posts@main
+        with:
+          HASHNODE_GQL_ENDPOINT: https://sandro-sandbox.stellate.sh/
+          # 60841809fea38e52a9c5bd63 is prod
+          HASHNODE_PUBLICATION_ID: 64e5ecf032db669c8500fe12
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
