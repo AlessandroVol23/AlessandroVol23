@@ -19,6 +19,6 @@ jobs:
         with:
           HASHNODE_GQL_ENDPOINT: https://sandro-sandbox.stellate.sh/
           # 60841809fea38e52a9c5bd63 is prod
-          HASHNODE_PUBLICATION_ID: 64e5ecf032db669c8500fe12
+          HASHNODE_PUBLICATION_ID: 62bdb12c79c4ef14aeaacfcd
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
