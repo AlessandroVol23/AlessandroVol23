@@ -7,7 +7,7 @@
 			<td><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1650958064619/OZIlB7YIy.jpeg" width="500" height="auto" /></td>
 			<td>
 				<sup>2023-10-13T07:01:47.911Z</sup><br />
-				<b>ipsum commodo labore est pariatur deserunt</b>
+				<b>New Post Update</b>
 				<p>Tempor id mollit id mollit fugiat non fugiat. Exercitation quis esse in enim. Incididunt veniam veniam commodo exercitation aliqua velit quis pariatur excepteur pariatur pariatur. Quis et deserunt excepteur sunt irure do voluptate dolor non ullamco e...</p>
 			</td>
 		</tr>
