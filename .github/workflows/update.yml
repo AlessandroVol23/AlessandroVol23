@@ -1,24 +1,23 @@
-name: Update Latest Blog Posts
+name: 'Hashnode Blogs'
 
 on:
   workflow_dispatch:
-  # for trigger via webhooks
-  repository_dispatch:
-    types: [trigger]
+  schedule:
+    - cron: '0 0 * * *' # Runs Every Day
 
 jobs:
-  update-posts:
+  update_blogs:
+    name: 'Hashnode Latest Blogs'
     runs-on: ubuntu-latest
-    name: Update Posts
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Update Posts
-        uses: JannikWempe/github-latest-hashnode-posts@main
+      - name: 'Fetch Repository Contents'
+        uses: actions/checkout@main
+
+      - name: 'Hashnode Blog Action'
+        uses: 'Sachin-chaurasiya/hashnode-blog-action@main'
         with:
-          HASHNODE_GQL_ENDPOINT: https://sandro-sandbox.stellate.sh/
-          # 60841809fea38e52a9c5bd63 is prod
-          HASHNODE_PUBLICATION_ID: 62bdb12c79c4ef14aeaacfcd
+          HASHNODE_PUBLICATION_NAME: 'blog.awsfundamentals.com'
+          POST_COUNT: 6
+          FORMAT: 'stacked'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
