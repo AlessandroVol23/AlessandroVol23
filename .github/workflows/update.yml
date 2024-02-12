@@ -3,7 +3,7 @@ name: 'Hashnode Blogs'
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *' # Runs Every Day
+    - cron: '0 0 * * *' # Runs Every Day
 
 jobs:
   update_blogs:
