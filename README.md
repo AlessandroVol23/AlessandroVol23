@@ -1,6 +1,10 @@
 ## My Latest Blog Posts 👇
 
 <!-- HASHNODE_BLOG:START -->
+<p align="left"><a href="https://blog.awsfundamentals.com/building-a-real-world-use-case-with-step-functions-and-the-callback-pattern" title="Building a Real-World Use Case with Step Functions and the Callback Pattern"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259887215/1fdb87de-be2e-4383-a785-585428b7b919.png" alt="Building a Real-World Use Case with Step Functions and the Callback Pattern" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/building-a-real-world-use-case-with-step-functions-and-the-callback-pattern" title="Building a Real-World Use Case with Step Functions and the Callback Pattern"><strong>Building a Real-World Use Case with Step Functions and the Callback Pattern</strong></a><div><strong>March 12, 2024</strong></div><br/>In this article, we talk about Step Function Workflows. One major use case that Step Functions enable is the Wait for Callback pattern.
+Code Included
+This edition comes with a special bonus - for the ...</p><br/><br/>
+
 <p align="left"><a href="https://blog.awsfundamentals.com/building-observability-to-increase-resiliency" title="Building Observability to Increase Resiliency"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1709197301416/b8e31a43-b74c-4472-88ae-ad4b18b2c618.png" alt="Building Observability to Increase Resiliency" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/building-observability-to-increase-resiliency" title="Building Observability to Increase Resiliency"><strong>Building Observability to Increase Resiliency</strong></a><div><strong>February 29, 2024</strong></div><br/>Integrating observability into systems is crucial for identifying and resolving issues swiftly, ensuring that systems are resilient and can recover quickly from disruptions.
 This involves a focused ap...</p><br/><br/>
 
@@ -12,8 +16,6 @@ This involves a focused ap...</p><br/><br/>
 
 <p align="left"><a href="https://blog.awsfundamentals.com/cloudwatch-logs-strategies-for-cross-account-and-cross-region-aggregation" title="CloudWatch Strategies for Cross-Account and Cross-Region Log Aggregation"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1702029599187/23e6bc11-a4b9-4ad1-b36a-dd50ba4b2292.png" alt="CloudWatch Strategies for Cross-Account and Cross-Region Log Aggregation" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/cloudwatch-logs-strategies-for-cross-account-and-cross-region-aggregation" title="CloudWatch Strategies for Cross-Account and Cross-Region Log Aggregation"><strong>CloudWatch Strategies for Cross-Account and Cross-Region Log Aggregation</strong></a><div><strong>December 14, 2023</strong></div><br/>As cloud infrastructures evolve, they often transform from a single-account, straightforward setup to a sprawling multi-account ecosystem.
 This article jumps into the journey of scaling cloud operatio...</p><br/><br/>
-
-<p align="left"><a href="https://blog.awsfundamentals.com/amazon-vpc-introduction-part-1" title="Introduction to the AWS Virtual Private Cloud (VPC) - Part 1"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1700818469011/248478fc-98fb-4eaa-8eae-b50d2488047b.png" alt="Introduction to the AWS Virtual Private Cloud (VPC) - Part 1" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/amazon-vpc-introduction-part-1" title="Introduction to the AWS Virtual Private Cloud (VPC) - Part 1"><strong>Introduction to the AWS Virtual Private Cloud (VPC) - Part 1</strong></a><div><strong>December 8, 2023</strong></div><br/>When building on AWS, it won't be long before you need to put some resources within a VPC. This of course depends if you are working for a startup all in on serverless or an enterprise with lots offic...</p><br/><br/>
 
 
 <!-- HASHNODE_BLOG:END -->
