@@ -1,6 +1,9 @@
 ## My Latest Blog Posts 👇
 
 <!-- HASHNODE_BLOG:START -->
+<p align="left"><a href="https://blog.awsfundamentals.com/cloudfront-hosting-toolkit" title="Hosting your Frontend on AWS with the CloudFront Hosting Toolkit"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1717917333426/a6f93bfb-f058-424c-abd0-aca94c2fce96.png" alt="Hosting your Frontend on AWS with the CloudFront Hosting Toolkit" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/cloudfront-hosting-toolkit" title="Hosting your Frontend on AWS with the CloudFront Hosting Toolkit"><strong>Hosting your Frontend on AWS with the CloudFront Hosting Toolkit</strong></a><div><strong>June 9, 2024</strong></div><br/>AWS has many ways of hosting your frontend. One very cost-effective, scalable, and easily manageable way of doing this is to host your static page on S3 and CloudFront.
+In this month (June 2024) AWS l...</p><br/><br/>
+
 <p align="left"><a href="https://blog.awsfundamentals.com/visual-regression-testing-with-aws-cloudwatch-canaries" title="Visual Regression Testing with AWS CloudWatch Canaries"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1714680232374/ec27e440-ee63-48af-a4bd-7717910d83d6.png" alt="Visual Regression Testing with AWS CloudWatch Canaries" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/visual-regression-testing-with-aws-cloudwatch-canaries" title="Visual Regression Testing with AWS CloudWatch Canaries"><strong>Visual Regression Testing with AWS CloudWatch Canaries</strong></a><div><strong>May 3, 2024</strong></div><br/>In today’s digital era, ensuring your website is consistently up and performing well is not just an option—it's essential.
 For those using AWS, CloudWatch Synthetic Canaries offer a smart way to monit...</p><br/><br/>
 
@@ -17,9 +20,6 @@ In this blog post, we talk about the importance of multi-accounts and how the Ob
 <p align="left"><a href="https://blog.awsfundamentals.com/building-a-real-world-use-case-with-step-functions-and-the-callback-pattern" title="Building a Real-World Use Case with Step Functions and the Callback Pattern"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259887215/1fdb87de-be2e-4383-a785-585428b7b919.png" alt="Building a Real-World Use Case with Step Functions and the Callback Pattern" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/building-a-real-world-use-case-with-step-functions-and-the-callback-pattern" title="Building a Real-World Use Case with Step Functions and the Callback Pattern"><strong>Building a Real-World Use Case with Step Functions and the Callback Pattern</strong></a><div><strong>March 12, 2024</strong></div><br/>In this article, we talk about Step Function Workflows. One major use case that Step Functions enable is the Wait for Callback pattern.
 Code Included
 This edition comes with a special bonus - for the ...</p><br/><br/>
-
-<p align="left"><a href="https://blog.awsfundamentals.com/building-observability-to-increase-resiliency" title="Building Observability to Increase Resiliency"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1709197301416/b8e31a43-b74c-4472-88ae-ad4b18b2c618.png" alt="Building Observability to Increase Resiliency" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/building-observability-to-increase-resiliency" title="Building Observability to Increase Resiliency"><strong>Building Observability to Increase Resiliency</strong></a><div><strong>February 29, 2024</strong></div><br/>Integrating observability into systems is crucial for identifying and resolving issues swiftly, ensuring that systems are resilient and can recover quickly from disruptions.
-This involves a focused ap...</p><br/><br/>
 
 
 <!-- HASHNODE_BLOG:END -->
