@@ -1,6 +1,9 @@
 ## My Latest Blog Posts 👇
 
 <!-- HASHNODE_BLOG:START -->
+<p align="left"><a href="https://blog.awsfundamentals.com/aws-cloudtrail-introduction" title="A Beginner's Guide to Using AWS CloudTrail"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1722926512676/9cd375eb-4961-44db-9a6c-734ca8444020.png" alt="A Beginner's Guide to Using AWS CloudTrail" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/aws-cloudtrail-introduction" title="A Beginner's Guide to Using AWS CloudTrail"><strong>A Beginner's Guide to Using AWS CloudTrail</strong></a><div><strong>August 6, 2024</strong></div><br/>Introduction
+AWS CloudTrail is like a surveillance camera for your AWS environment. It sits in the background unseen and records all API calls and user activities, giving you detailed logs of who did ...</p><br/><br/>
+
 <p align="left"><a href="https://blog.awsfundamentals.com/amazon-vpc-introduction-part-3" title="Introduction to the AWS Virtual Private Cloud (VPC) - Part 3"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1720161868773/fdfc39ea-4a40-4dd9-bd0a-22ade30f64d7.png" alt="Introduction to the AWS Virtual Private Cloud (VPC) - Part 3" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/amazon-vpc-introduction-part-3" title="Introduction to the AWS Virtual Private Cloud (VPC) - Part 3"><strong>Introduction to the AWS Virtual Private Cloud (VPC) - Part 3</strong></a><div><strong>July 5, 2024</strong></div><br/>In part 2, we covered some of the VPC's more advanced capabilities. In this final article of the series, we will cover how to work with multiple VPCs and how you can give your precious users access.
 L...</p><br/><br/>
 
@@ -16,9 +19,6 @@ For those using AWS, CloudWatch Synthetic Canaries offer a smart way to monit...
 Let’s dig in 👍
 Network Address Translation
 While you can put things straight on th...</p><br/><br/>
-
-<p align="left"><a href="https://blog.awsfundamentals.com/easy-cross-account-aggregation-of-logs-metrics-and-traces-on-cloudwatch-with-observability-access-manager" title="Easy Cross-Account Aggregation of Logs, Metrics and Traces on CloudWatch with Observability Access Manager"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1712124960976/d7b4e8d4-cefe-424f-bf42-a1115b1f4b86.png" alt="Easy Cross-Account Aggregation of Logs, Metrics and Traces on CloudWatch with Observability Access Manager" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/easy-cross-account-aggregation-of-logs-metrics-and-traces-on-cloudwatch-with-observability-access-manager" title="Easy Cross-Account Aggregation of Logs, Metrics and Traces on CloudWatch with Observability Access Manager"><strong>Easy Cross-Account Aggregation of Logs, Metrics and Traces on CloudWatch with Observability Access Manager</strong></a><div><strong>April 3, 2024</strong></div><br/>💡
-In this blog post, we talk about the importance of multi-accounts and how the Observability Access Manager (OAM) can help us with that. If you want to get started with code check out our accompanyi...</p><br/><br/>
 
 
 <!-- HASHNODE_BLOG:END -->
