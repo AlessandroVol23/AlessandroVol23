@@ -1,6 +1,8 @@
 ## My Latest Blog Posts 👇
 
 <!-- HASHNODE_BLOG:START -->
+<p align="left"><a href="https://blog.awsfundamentals.com/oidc-introduction" title="What Is OIDC and Why Do We Need It?"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1723020938951/8ba946fa-ce9b-4ede-8bfd-68cc5225bf62.png" alt="What Is OIDC and Why Do We Need It?" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/oidc-introduction" title="What Is OIDC and Why Do We Need It?"><strong>What Is OIDC and Why Do We Need It?</strong></a><div><strong>August 7, 2024</strong></div><br/>In the rapidly evolving landscape of cloud computing and application security, managing user identities and ensuring secure authentication are critical for business success. The era of AWS static cred...</p><br/><br/>
+
 <p align="left"><a href="https://blog.awsfundamentals.com/aws-cloudtrail-introduction" title="A Beginner's Guide to Using AWS CloudTrail"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1722926512676/9cd375eb-4961-44db-9a6c-734ca8444020.png" alt="A Beginner's Guide to Using AWS CloudTrail" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/aws-cloudtrail-introduction" title="A Beginner's Guide to Using AWS CloudTrail"><strong>A Beginner's Guide to Using AWS CloudTrail</strong></a><div><strong>August 6, 2024</strong></div><br/>Introduction
 AWS CloudTrail is like a surveillance camera for your AWS environment. It sits in the background unseen and records all API calls and user activities, giving you detailed logs of who did ...</p><br/><br/>
 
@@ -14,11 +16,6 @@ In this month (June 2024) AWS l...</p><br/><br/>
 For those using AWS, CloudWatch Synthetic Canaries offer a smart way to monit...</p><br/><br/>
 
 <p align="left"><a href="https://blog.awsfundamentals.com/amazon-bedrock-the-openai-api-and-sst" title="Building a Serverless Chat App with Contextual Note Integration Featuring Amazon Bedrock, the OpenAI API, and SST"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1713429241132/d6ef0138-9c4d-43be-ba25-124df5ba403f.png" alt="Building a Serverless Chat App with Contextual Note Integration Featuring Amazon Bedrock, the OpenAI API, and SST" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/amazon-bedrock-the-openai-api-and-sst" title="Building a Serverless Chat App with Contextual Note Integration Featuring Amazon Bedrock, the OpenAI API, and SST"><strong>Building a Serverless Chat App with Contextual Note Integration Featuring Amazon Bedrock, the OpenAI API, and SST</strong></a><div><strong>April 19, 2024</strong></div><br/>In this article, we'll explore how to build a serverless chat application that uses Amazon Bedrock and the OpenAI API. We'll use SST (Serverless Stack) to develop and deploy the application on AWS, fe...</p><br/><br/>
-
-<p align="left"><a href="https://blog.awsfundamentals.com/introduction-to-the-aws-virtual-private-cloud-vpc-part-2" title="Introduction to the AWS Virtual Private Cloud (VPC) - Part 2"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1712737562017/d1e6626c-1f78-4d8d-9aee-13cf33cd30dd.png" alt="Introduction to the AWS Virtual Private Cloud (VPC) - Part 2" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/introduction-to-the-aws-virtual-private-cloud-vpc-part-2" title="Introduction to the AWS Virtual Private Cloud (VPC) - Part 2"><strong>Introduction to the AWS Virtual Private Cloud (VPC) - Part 2</strong></a><div><strong>April 10, 2024</strong></div><br/>In part 1, we covered some of the basics of the VPC. In this article, we will cover some of the more advanced topics
-Let’s dig in 👍
-Network Address Translation
-While you can put things straight on th...</p><br/><br/>
 
 
 <!-- HASHNODE_BLOG:END -->
