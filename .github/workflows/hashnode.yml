@@ -1,0 +1,133 @@
+name: 'Hashnode Blog Posts'
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight
+
+jobs:
+  update_blogs:
+    name: 'Update Hashnode Blog Posts'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: |
+          npm init -y
+          npm install @octokit/core node-fetch
+
+      - name: Fetch and Update Blog Posts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node - <<'EOF'
+          const { Octokit } = require('@octokit/core');
+          const fetch = require('node-fetch');
+          const fs = require('fs').promises;
+
+          const HASHNODE_API = 'https://gql.hashnode.com';
+          const POST_QUERY = `
+            query PostsByAuthor($page: Int!, $pageSize: Int!) {
+              user(username: "SandroVolpicella") {
+                id
+                posts(page: $page, pageSize: $pageSize, sortBy: DATE_PUBLISHED_DESC) {
+                  edges {
+                    node {
+                      title
+                      brief
+                      slug
+                      dateAdded
+                      coverImage
+                    }
+                  }
+                  totalDocuments
+                }
+              }
+            }
+          `;
+
+          async function fetchBlogPosts() {
+            const response = await fetch(HASHNODE_API, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                query: POST_QUERY,
+                variables: {
+                  page: 1,
+                  pageSize: 6
+                }
+              })
+            });
+
+            const data = await response.json();
+            return data.data.user.posts.edges;
+          }
+
+          function formatDate(dateString) {
+            return new Date(dateString).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            });
+          }
+
+          async function updateReadme(posts) {
+            const readme = await fs.readFile('README.md', 'utf8');
+            
+            const blogSection = posts.map(({ node }) => `
+<div align="left">
+  <div style="display: flex; align-items: center;">
+    <img src="${node.coverImage}" width="140px" />
+    <div style="margin-left: 20px;">
+      <a href="https://blog.awsfundamentals.com/${node.slug}">
+        <strong>${node.title}</strong>
+      </a>
+      <br />
+      <p>${node.brief}</p>
+      <small>${formatDate(node.dateAdded)}</small>
+    </div>
+  </div>
+</div>
+`).join('\n');
+
+            const newContent = `<!-- HASHNODE_BLOG:START -->\n${blogSection}\n<!-- HASHNODE_BLOG:END -->`;
+            
+            // Replace content between markers
+            const updatedReadme = readme.replace(
+              /<!-- HASHNODE_BLOG:START -->[\s\S]*<!-- HASHNODE_BLOG:END -->/,
+              newContent
+            );
+            
+            await fs.writeFile('README.md', updatedReadme, 'utf8');
+          }
+
+          async function main() {
+            try {
+              const posts = await fetchBlogPosts();
+              await updateReadme(posts);
+
+              // Commit changes
+              const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+              
+              await exec('git', ['config', '--global', 'user.email', 'github-actions[bot]@users.noreply.github.com']);
+              await exec('git', ['config', '--global', 'user.name', 'github-actions[bot]']);
+              await exec('git', ['add', 'README.md']);
+              await exec('git', ['commit', '-m', 'docs: update blog posts']);
+              await exec('git', ['push']);
+
+            } catch (error) {
+              console.error('Error:', error);
+              process.exit(1);
+            }
+          }
+
+          main();
+          EOF
