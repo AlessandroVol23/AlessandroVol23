@@ -1,5 +1,9 @@
 ## My Latest Blog Posts 👇
 
+ I'm Sandro, a fullstack serverless developer from Munich, Germany 🇩🇪. I specialize in building digital products on AWS. I love helping startups and enterprises do that efficiently.
+
+ Are you interested in working together? I can help you discuss your cloud architecture, build a new product, or consult on anything serverless and cloud-related. Feel free to reach out via [email](mailto:alessandro.volpicella@gmail.com). If you want to learn more about me head over to this [page](https://sandrovolpicella.com).
+
 <!-- HASHNODE_BLOG:START -->
 <p align="left"><a href="https://blog.awsfundamentals.com/the-best-reinvent-cloudwatch-launches" title="The Best re:Invent CloudWatch Launches"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733987106176/f48d088f-fb85-44d7-b3d8-70334979a116.png" alt="The Best re:Invent CloudWatch Launches" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/the-best-reinvent-cloudwatch-launches" title="The Best re:Invent CloudWatch Launches"><strong>The Best re:Invent CloudWatch Launches</strong></a><div><strong>December 12, 2024</strong></div><br/>There were a lot of CloudWatch launches this year. In the launch session, they were summarized as:
 
