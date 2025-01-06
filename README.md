@@ -9,6 +9,9 @@
 
 
 <!-- HASHNODE_BLOG:START -->
+<p align="left"><a href="https://blog.awsfundamentals.com/aurora-dsql-introduction" title="Fully-Managed Serverless SQL with Aurora DSQL - A Deep-Dive into Its Internals"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734602513477/cf762ea2-8ac8-4a93-8f65-548ae0f19b25.png" alt="Fully-Managed Serverless SQL with Aurora DSQL - A Deep-Dive into Its Internals" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/aurora-dsql-introduction" title="Fully-Managed Serverless SQL with Aurora DSQL - A Deep-Dive into Its Internals"><strong>Fully-Managed Serverless SQL with Aurora DSQL - A Deep-Dive into Its Internals</strong></a><div><strong>January 5, 2025</strong></div><br/>What if there would be something like DynamoDB but for SQL?
+With Amazon Aurora DSQL, this is finally possible. It's not just a "scales-to-zero" solution like Aurora Serverless V2. It is a true distrib...</p><br/><br/>
+
 <p align="left"><a href="https://blog.awsfundamentals.com/the-best-reinvent-cloudwatch-launches" title="The Best re:Invent CloudWatch Launches"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733987106176/f48d088f-fb85-44d7-b3d8-70334979a116.png" alt="The Best re:Invent CloudWatch Launches" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/the-best-reinvent-cloudwatch-launches" title="The Best re:Invent CloudWatch Launches"><strong>The Best re:Invent CloudWatch Launches</strong></a><div><strong>December 12, 2024</strong></div><br/>There were a lot of CloudWatch launches this year. In the launch session, they were summarized as:
 
 More Coverage
@@ -33,8 +36,6 @@ Ian McKay is an AWS Comm...</p><br/><br/>
 Most...</p><br/><br/>
 
 <p align="left"><a href="https://blog.awsfundamentals.com/opentelemetry-on-aws" title="OpenTelemetry on AWS: Observability at Scale with Open-Source"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1731490458521/2b2c32ad-7e44-44ac-8159-a9fbf13bc5bd.png" alt="OpenTelemetry on AWS: Observability at Scale with Open-Source" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/opentelemetry-on-aws" title="OpenTelemetry on AWS: Observability at Scale with Open-Source"><strong>OpenTelemetry on AWS: Observability at Scale with Open-Source</strong></a><div><strong>November 13, 2024</strong></div><br/>Using a real-world project in The CloudWatch Book, we walk you through implementing your observability stack using CloudWatch. Our goal is to provide you with deeper insights into the functionality of...</p><br/><br/>
-
-<p align="left"><a href="https://blog.awsfundamentals.com/polling-vs-websockets-with-amazon-api-gateway" title="Polling vs. WebSockets with Amazon API Gateway"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1729833164111/bbde6c0b-dc07-4e45-b00a-7ab1056b9d10.png" alt="Polling vs. WebSockets with Amazon API Gateway" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/polling-vs-websockets-with-amazon-api-gateway" title="Polling vs. WebSockets with Amazon API Gateway"><strong>Polling vs. WebSockets with Amazon API Gateway</strong></a><div><strong>October 26, 2024</strong></div><br/>Fast data exchange if often a necessity in web applications. But how to choose between Polling and WebSockets? Understanding the nuances between these two communication methods is important, as they b...</p><br/><br/>
 
 
 <!-- HASHNODE_BLOG:END -->
