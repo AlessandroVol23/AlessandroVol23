@@ -9,6 +9,8 @@
 
 
 <!-- HASHNODE_BLOG:START -->
+<p align="left"><a href="https://blog.awsfundamentals.com/edgio-to-cloudfront" title="How Amazon CloudFront Saved My Azure Project"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1737350444411/14bda806-58e1-4c0d-bf6a-cce91862b46f.png" alt="How Amazon CloudFront Saved My Azure Project" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/edgio-to-cloudfront" title="How Amazon CloudFront Saved My Azure Project"><strong>How Amazon CloudFront Saved My Azure Project</strong></a><div><strong>January 20, 2025</strong></div><br/>In September 2024, Edgio, the main CDN provider we used for one of my large enterprise projects, filed for bankruptcy. Edgio was natively integrated into Azure, allowing you to use it without leaving ...</p><br/><br/>
+
 <p align="left"><a href="https://blog.awsfundamentals.com/apps-on-fargate-via-ecs" title="Containers Can Be Serverless Too - Running Applications on Fargate via ECS"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1736268409243/14438f98-98aa-488b-b524-151ecef21d0b.png" alt="Containers Can Be Serverless Too - Running Applications on Fargate via ECS" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/apps-on-fargate-via-ecs" title="Containers Can Be Serverless Too - Running Applications on Fargate via ECS"><strong>Containers Can Be Serverless Too - Running Applications on Fargate via ECS</strong></a><div><strong>January 19, 2025</strong></div><br/>When building applications on AWS, we need to run our code somewhere: a computation service. There are a lot of well-known and mature computation services on AWS. You’ll often find Lambda as the prima...</p><br/><br/>
 
 <p align="left"><a href="https://blog.awsfundamentals.com/aurora-dsql-introduction" title="Fully-Managed Serverless SQL with Aurora DSQL - A Deep-Dive into Its Internals"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1734602513477/cf762ea2-8ac8-4a93-8f65-548ae0f19b25.png" alt="Fully-Managed Serverless SQL with Aurora DSQL - A Deep-Dive into Its Internals" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/aurora-dsql-introduction" title="Fully-Managed Serverless SQL with Aurora DSQL - A Deep-Dive into Its Internals"><strong>Fully-Managed Serverless SQL with Aurora DSQL - A Deep-Dive into Its Internals</strong></a><div><strong>January 5, 2025</strong></div><br/>What if there would be something like DynamoDB but for SQL?
@@ -32,10 +34,6 @@ Aided inv...</p><br/><br/>
 
 💡
 Ian McKay is an AWS Comm...</p><br/><br/>
-
-<p align="left"><a href="https://blog.awsfundamentals.com/feature-toggles-with-appconfig" title="Real-Time Feature Toggles with AppConfig"><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1733050261914/c999039b-011f-4d08-a9e5-a3e5ac33f282.png" alt="Real-Time Feature Toggles with AppConfig" width="300px" align="left" /></a><a href="https://blog.awsfundamentals.com/feature-toggles-with-appconfig" title="Real-Time Feature Toggles with AppConfig"><strong>Real-Time Feature Toggles with AppConfig</strong></a><div><strong>December 3, 2024</strong></div><br/>There’s a common and critical trap that solo founders, indie hackers, startups, and even large enterprises tend to fall into: they tend to build features that users do not actually need or want.
-
-Most...</p><br/><br/>
 
 
 <!-- HASHNODE_BLOG:END -->
